@@ -1,0 +1,100 @@
+# Laravel
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel specific
+/bootstrap/cache/
+/storage/*.key
+/storage/framework/
+/storage/logs/
+/storage/debugbar/
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Composer
+composer.lock
+composer.phar
+
+# NPM / Yarn
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/public/vendor
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Uploaded files (except .gitkeep)
+/public/uploads/*
+!/public/uploads/.gitkeep
+/public/storage/*
+!/public/storage/.gitkeep
+
+# Logs
+*.log
+/storage/logs/laravel.log
+
+# Caches
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# Compiled files
+/public/css/
+/public/js/
+/public/mix-manifest.json
+
+# Security
+*.pem
+*.key
+*.crt
+
+# Project specific
+/storage/app/public/products/*
+!/storage/app/public/products/.gitkeep
+/storage/app/public/avatars/*
+!/storage/app/public/avatars/.gitkeep
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Deployment
+.deployer/
+.dep/
+
+# Backup
+*.bkp
+*.backup
+
+# Misc
+.phpunit.result.cache
+.php-cs-fixer.cache
+.php_cs.cache
